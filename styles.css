@@ -1,0 +1,41 @@
+table {
+  border: 1px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 600px;
+  border-color: #D6D6D6;
+}
+
+th, td{
+  border: 1px solid;
+  width: 76px;
+  height: 35px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #DEDEDE;
+  border-color: #D6D6D6;
+  font-size: small;
+  font-weight: 500;
+}
+
+input {
+  border: none;
+  /* width: 100px; */
+  height: 35px;
+}
+
+.exportButton {
+  background-color: #08AB47;
+  width: 138px;
+  height: 33px;
+  color: white;
+  text-align: center;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
+
+#cellNum {
+  font-size: 19px;
+}
